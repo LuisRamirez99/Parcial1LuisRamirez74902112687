@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaPresentacion", "RepasoVehiculo\CapaPresentacion.csproj", "{3A417EC2-33A9-4FCB-8733-8CF2B0AD0EBB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5814578C-F1E6-47AE-AF77-9C6B8FEF2889} = {5814578C-F1E6-47AE-AF77-9C6B8FEF2889}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaDatos", "ClassLibrary2\CapaDatos.csproj", "{5814578C-F1E6-47AE-AF77-9C6B8FEF2889}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A417EC2-33A9-4FCB-8733-8CF2B0AD0EBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A417EC2-33A9-4FCB-8733-8CF2B0AD0EBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A417EC2-33A9-4FCB-8733-8CF2B0AD0EBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A417EC2-33A9-4FCB-8733-8CF2B0AD0EBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5814578C-F1E6-47AE-AF77-9C6B8FEF2889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5814578C-F1E6-47AE-AF77-9C6B8FEF2889}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5814578C-F1E6-47AE-AF77-9C6B8FEF2889}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5814578C-F1E6-47AE-AF77-9C6B8FEF2889}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B272D12D-6CE5-4BD4-B6A6-86E9D52CDC7A}
+	EndGlobalSection
+EndGlobal
